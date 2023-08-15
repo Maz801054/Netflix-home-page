@@ -1,0 +1,72 @@
+.backgound-banner {
+  background-color: black;
+  background-image: url(../images/header-image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  max-height: 100%;
+}
+.home-content {
+  height: 599px;
+}
+.divaidar {
+  height: 10px;
+  background-color: rgb(252, 252, 252);
+}
+.ssd {
+  height: 405px;
+  width: 645px;
+}
+.clot {
+  padding-top: 50px;
+  padding-left: 20px;
+}
+h1 {
+  font-size: 50px !important;
+}
+.row {
+  background-color: black;
+  overflow: hidden !important;
+}
+.Acordian {
+  background-color: black !important;
+}
+.accordion-button {
+  background-color: #303030 !important;
+  color: white !important;
+}
+.accordion-item {
+  margin: 10px !important;
+  margin-right: 100px !important;
+  background-color: #303030 !important;
+  color: white !important;
+}
+.footer {
+  background-color: black !important;
+  color: white !important;
+}
+.form {
+  position: relative;
+  top: 2px;
+  width: 300px;
+  height: 40px;
+  padding: 0 10px;
+  background-image: linear-gradient(rgba(51, 45, 45, 0.794), transparent);
+  color: white;
+  font-weight: bold;
+}
+@media (min-width: 300px) and (max-width: 560px) {
+  .logo {
+    width: 50%;
+    height: 50%;
+  }
+  .mieaa {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 5px;
+    padding: 0 50px !important;
+  }
+}
